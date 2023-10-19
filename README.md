@@ -3,11 +3,13 @@ About r-glmmadaptive-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-glmmadaptive-feedstock/blob/main/LICENSE.txt)
 
-Home: https://drizopoulos.github.io/GLMMadaptive/, https://github.com/drizopoulos/GLMMadaptive
+Home: https://drizopoulos.github.io/GLMMadaptive/
 
 Package license: GPL-3.0-or-later
 
 Summary: Fits generalized linear mixed models for a single grouping factor under maximum likelihood approximating the integrals over the random effects with an adaptive Gaussian quadrature rule; Jose C. Pinheiro and Douglas M. Bates (1995) <doi:10.1080/10618600.1995.10474663>.
+
+Development: https://github.com/drizopoulos/GLMMadaptive
 
 Current build status
 ====================
