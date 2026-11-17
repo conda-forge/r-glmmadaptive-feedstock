@@ -1,4 +1,4 @@
-{% set version = "0.9-7" %}
+{% set version = "0.9-9" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/GLMMadaptive_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/GLMMadaptive/GLMMadaptive_{{ version }}.tar.gz
-  sha256: 3f1cc2e49099d1110ada120ec1da806546e00aa142a70a762af3921794f6e13c
+  sha256: 6fb4aec36409789ebf5a2be318b18f2aa79e9d51de7dc51fac19b08008aff290
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
